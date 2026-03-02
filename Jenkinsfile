@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/salsbuer'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/Sals614/225-lab3-1.git'                   // <------change this
-        KUBECONFIG = credentials('salsbuer-225')                                             // <------change this
+        KUBECONFIG = credentials('sals614-225')                                             // <------change this
     }
 
     stages {
